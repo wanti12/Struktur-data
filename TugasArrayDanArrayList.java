@@ -2,7 +2,7 @@ package TugasStrukturData;
 
 import java.util.*;
 
-public class ArrayDanArrayList {
+public class TugasArrayDanArrayList {
 
     public static void main(String[] args) {
         System.out.println("soal ArrayList");
@@ -81,6 +81,6 @@ public class ArrayDanArrayList {
             }
         }
         System.out.println(Arrays.deepToString(x));
-        wa.close();;
+        wa.close();
     }
 }
