@@ -2,7 +2,7 @@ package TugasStrukturData;
 
 import java.util.*;
 
-public class ArrayDanArraiList {
+public class ArrayDanArrayList {
 
     public static void main(String[] args) {
         System.out.println("soal ArrayList");
@@ -11,7 +11,7 @@ public class ArrayDanArraiList {
         ganjil.add(Byte.valueOf((byte) 1));
         ganjil.add(Byte.valueOf((byte) 3));
         ganjil.add(Byte.valueOf((byte) 5));
-        System.out.println("data array list : " + ganjil);
+        System.out.println("data ArrayList : " + ganjil);
 
         //2. membuat ArrayList tipe data Integer
         ArrayList<Integer> ArrayInte = new ArrayList<>();
@@ -19,14 +19,14 @@ public class ArrayDanArraiList {
         ArrayInte.add(10);
         ArrayInte.add(20);
         ArrayInte.add(30);
-        System.out.println("data array list : " + ArrayInte);
+        System.out.println("data ArrayList : " + ArrayInte);
         System.out.println("mengakses nilai pada indeks ke 1 = " + ArrayInte.get(1));
         System.out.println("mengganti nilai " + ArrayInte.set(2, 50) + "\nsetelah di ganti = " + ArrayInte);
         System.out.println("menghapus nilai = " + ArrayInte.remove(0) + "\nmenjadi " + ArrayInte);
-        System.out.println("size array = " + ArrayInte.size());
+        System.out.println("size Array = " + ArrayInte.size());
 
         System.out.println("\nsoal Array");
-        //1.buat array 1 dimensi dengan 8 tipe data primitif
+        //1.buat Array 1 dimensi dengan 8 tipe data primitif
         byte a[] = {1, 2, 3, 4, 5};
         short b[] = {6, 7, 8};
         long[] c = {100, 200, 300, 400, 500};
@@ -34,9 +34,9 @@ public class ArrayDanArraiList {
         double[] f = {1.11, 2.22, 3.33, 4.44, 5.55};
         boolean[] g = {true, false, false, true};
 
-        //2.buatlah array 1 dimensi bertipe data primitif kemudian cetak menggunakan 5 metode 
+        //2.buatlah Array 1 dimensi bertipe data primitif kemudian cetak menggunakan 5 metode 
         int cetak[] = {1, 2, 3, 4};
-        System.out.println("1.class array");
+        System.out.println("1.class Array");
         System.out.println(Arrays.toString(cetak));
 
         System.out.println("2.for");
